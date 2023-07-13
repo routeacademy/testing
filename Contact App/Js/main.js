@@ -15,3 +15,5 @@ addButton.addEventListener("click", function () {
   </li>
   `;
 });
+
+console.log("Ahmed");
