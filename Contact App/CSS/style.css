@@ -1,0 +1,24 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+main {
+  background: url("https://dzoni19.github.io/todo-list/images/bg-desktop-light.jpg")
+    no-repeat;
+  background-size: 100% 30vh;
+}
+
+.close {
+  all: unset;
+}
+
+@media (width <= 992px) {
+  main .container {
+    width: 100% !important;
+  }
+}
+
+input:checked + h3 {
+  text-decoration: line-through red 2px wavy;
+  text-decoration-skip-ink: none;
+}

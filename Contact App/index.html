@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact App</title>
+    <link rel="icon" href="./images/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--&==========> Font Awesome Library Icons -->
+    <link rel="stylesheet" href="./CSS/bootstrap-icons.min.css" />
+    <!--&==========> Bootstrap framework -->
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <!--&==========> Main CSS Stylesheet -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container w-50">
+        <div class="todo-container">
+          <header
+            class="w-100 text-white py-4 d-flex justify-content-between align-items-center"
+          >
+            <h1 class="m-0 fw-bold">TODO</h1>
+            <i class="bi bi-brightness-high fs-3"></i>
+          </header>
+          <form>
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control shadow"
+                placeholder="Create a new todo..."
+                id="taskInput"
+              />
+              <button type="button" class="btn btn-primary" id="addButton">
+                Add Task
+              </button>
+            </div>
+
+            <ul
+              class="list-unstyled bg rounded-3 overflow-hidden shadow-lg"
+              id="tasksContainer"
+            ></ul>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script src="./Js/main.js"></script>
+  </body>
+</html>
